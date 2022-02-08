@@ -1,0 +1,59 @@
+  
+  .btn-primary {
+    background-color: var(--primary-color);
+  }
+  
+  .btn-secondary {
+    background-color: var(--secondary-color);
+  }
+  
+  .btn-error {
+    background-color: var(--error-color);
+  }
+  
+  .btn-success {
+    background-color: var(--success-color);
+  }
+  
+  .btn-primary:hover {
+    background-color: var(--primary-color-hover);
+  }
+  
+  .btn-secondary:hover {
+    background-color: var(--secondary-color-hover);
+  }
+  
+  .btn-error:hover {
+    background-color: var(--error-color-hover);
+  }
+  
+  .btn-success:hover {
+    background-color: var(--success-color-hover);
+  }
+  
+  .btn-link {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .btn-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .floating-btn {
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 999px;
+    border: none;
+    color: var(--white-color);
+    font-size: 1.5rem;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    cursor: pointer;
+  }

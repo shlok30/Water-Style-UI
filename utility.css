@@ -111,3 +111,7 @@ ul li{
     color:orange
 }
 
+.light-border{
+    border:0.5px solid var(--black-color)
+}
+
