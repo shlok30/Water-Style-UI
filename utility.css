@@ -27,22 +27,7 @@ ul li{
     text-align: center;
 }
 
-:root {
-    --primary-color: #3b82f6;
-    --secondary-color: #fb6222;
-    --error-color: #ff3b30;
-    --success-color: #10b981;
-    --warning-color: #fbbf24;
-    --white-color: white;
-    --grey-color: #E8E8E8;
-    --primary-color-hover: #2a71e5;
-    --secondary-color-hover: #ea5111;
-    --error-color-hover: #ee2a2f;
-    --success-color-hover: #1fa871;
-    --s-padding : 0.5rem;
-    --m-padding : 1rem;
-    --l-padding : 2rem;
-  }
+
   
 
 .flex{
