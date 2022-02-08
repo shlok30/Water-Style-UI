@@ -1,0 +1,41 @@
+aside{
+    width:fit-content;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 4px 9px;
+    border-right: 1px solid var(--grey-color);
+}
+
+aside a{
+    color: var(--primary-color);
+}
+
+.sidebar{
+    padding:4rem;
+}
+
+.avatar{
+    width : 2.5rem;
+    height: 2.5rem;
+    border:1px solid black;
+    border-radius: 999px;
+}
+
+.avatar img{
+    width: 100%;
+}
+
+.sm{
+    width : 1.875rem;
+    height: 1.875em;
+}
+
+.lg{
+    width : 3.125rem;
+    height: 3.125rem;
+}
+
+.main{
+    padding: var(--l-padding);
+    flex:1
+}
+
+
