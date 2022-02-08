@@ -1,0 +1,48 @@
+.badge{
+    position: relative;
+}
+
+.status{
+    position:absolute;
+    width:10px;
+    height: 10px;
+    border-radius: 999px;
+    
+    bottom:0;
+    right: 0;
+}
+
+.online{
+    background-color: var(--success-color);
+}
+
+.offline{
+    background-color: var(--error-color);
+}
+
+.dnd{
+    background-color: var(--grey-color);
+}
+
+.material-icons.md-40{
+    font-size: 40px;
+}
+
+.number{
+    position:absolute;
+    width:20px;
+    height: 20px;
+    border-radius: 999px;
+    text-align: center;
+    color: white;
+    background-color: red;
+}
+
+.top-right{
+    top:0;
+    right:0;
+}
+
+.icon{
+    width:fit-content
+}
