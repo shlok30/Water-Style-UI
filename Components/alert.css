@@ -1,5 +1,5 @@
 .alert {
-    color: var(--white-color);
+    color: var(--white-bg-color);
     width: 100%;
     padding-inline: 2rem;
     padding-top: 1rem;
@@ -24,25 +24,25 @@
   }
   
   .primary-outline {
-    background-color: var(--white-color);
+    background-color: var(--white-bg-color);
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
   }
   
   .error-outline {
-    background-color: var(--white-color);
+    background-color: var(--white-bg-color);
     color: var(--error-color);
     border: 1px solid var(--error-color);
   }
   
   .success-outline {
-    background-color: var(--white-color);
+    background-color: var(--white-bg-color);
     color: var(--success-color);
     border: 1px solid var(--success-color);
   }
   
   .warning-outline {
-    background-color: var(--white-color);
+    background-color: var(--white-bg-color);
     color: var(--warning-color);
     border: 1px solid var(--warning-color);
   }

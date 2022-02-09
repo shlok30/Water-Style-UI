@@ -20,19 +20,25 @@ ul li{
 
 .btn a{
     text-decoration: none;
-    color:var(--white-color)
+    color:var(--white-bg-color)
 }
 
 .center-text{
     text-align: center;
 }
 
-
+img{
+    width:100%
+}
   
 
 .flex{
     display : flex;;
     flex-wrap: wrap;
+}
+
+.no-wrap{
+    flex-wrap: nowrap;
 }
 
 .gap-m{
@@ -101,10 +107,7 @@ ul li{
 }
 
 .img-container{
-    max-width: 30%;
-    padding-inline: 2rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    max-width: 100%;
 }
 
 .active-link{
