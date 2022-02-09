@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "/styles.css">
+    <link rel = "stylesheet" href = "/utility.css">
+    <link rel = "stylesheet" href = "/variables.css">
+    <link rel = "stylesheet" href = "avatar.css">
+    <link rel = "stylesheet" href = "badge.css">
+    <link rel = "stylesheet" href = "alert.css">
+    <link rel = "stylesheet" href = "button.css">
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <title>Alert</title>
+</head>
+<body>
+    <nav class = "flex space-between">
+        <div class = "nav-brand">Water Style UI</div>
+        <div>Documentation</div>
+    </nav>
+    <div class = "content-wrapper flex">
+        <aside class = "sidebar flex flex-column gap-l">
+            <a href = "/index.html">Home</a>
+            <p>Components</p>
+            <ul class = "flex flex-column gap-xl">
+                <li><a href="avatar.html">Avatar</a></li>
+                <li><a href="badge.html">Badge</a></li>
+                <li><a href="alert.html" >Alert</a></li>
+                <li><a href="" class = "active-link">Button</a></li>
+                <li><a href="">Image</a></li>
+            </ul>
+        </aside>
+
+        <div class = "flex flex-column main gap-m debug">
+            <h1>Contained Buttons</h1>
+
+        <div class = "container flex gap-l light-border" style = "align-items: center">
+            <button class="btn btn-primary">PRIMARY</button>
+            <button class="btn btn-secondary">SECONDARY</button>
+            <button class="btn btn-error">ERROR</button>
+            <button class="btn btn-success">SUCCESS</button>
+        </div>
+
+        <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%2859%2C130%2C246%2C1%29&t=seti&wt=none&l=auto&width=503&ds=true&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=10.5px&lh=142%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EPRIMARY%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn%2520secondary%2522%253ESECONDARY%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-error%2522%253EERROR%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-success%2522%253ESUCCESS%253C%252Fbutton%253E"
+            style="width: 503px; height: 85px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+        </iframe>
+
+        <h1>Link Button</h1>
+        
+        <div class = "container flex flex-column gap-m light-border">
+            <a href="" class="btn btn-primary btn-link">Link</a>
+        </div>
+
+        <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%2859%2C130%2C246%2C1%29&t=seti&wt=none&l=auto&width=503&ds=true&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=10.5px&lh=142%25&si=false&es=2x&wm=false&code=%253Ca%2520href%253D%2522%2522%2520class%253D%2522btn%2520btn-primary%2520btn-link%2522%253ELink%253C%252Fa%253E"
+            style="width: 503px; height: 43px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+        </iframe>
+
+        <h1>Icon Button</h1>
+        <p>Icon Buttons can be created, by using a SVG as a child to parent button. Use the 'btn' class followed by 'btn-icon'.</p>
+
+        <div class = "container flex flex-column gap-m light-border">
+            <button class="btn btn-primary btn-icon">
+                <i class="material-icons md-16">share</i>SHARE
+            </button>
+        </div>
+
+        <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%2859%2C130%2C246%2C1%29&t=seti&wt=none&l=auto&width=503&ds=true&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=10.5px&lh=142%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520btn-icon%2522%253E%250A%2509%253Ci%2520class%253D%2522material-icons%2520md-16%2522%253Eshare%253C%252Fi%253ESHARE%250A%253C%252Fbutton%253E"
+            style="width: 503px; height: 71px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+        </iframe>
+
+    <h1>Floating Action Button</h1>
+    <p>The button on the bottom right is a floating action button</p>
+
+    <button class="floating-btn btn-primary">+</button>
+    
+    <iframe
+        src="https://carbon.now.sh/embed?bg=rgba%2859%2C130%2C246%2C1%29&t=seti&wt=none&l=auto&width=503&ds=true&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=10.5px&lh=142%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522floating-btn%2520btn-primary%2522%253E%252B%253C%252Fbutton%253E"
+        style="width: 503px; height: 43px; border:0; transform: scale(1); overflow:hidden;"
+        sandbox="allow-scripts allow-same-origin">
+    </iframe>
+
+    </div>
+</div>
+
+</body>
+</html>
