@@ -1,0 +1,19 @@
+.responsive-img-container {
+    width: fit-content;
+    padding: var(--s-padding);
+    border: 0.5px solid black;
+  }
+  
+  .responsive-img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .rounded-img-container {
+    border-radius: 50%;
+  }
+  
+  .rounded-img {
+    border-radius: 50%;
+  }
+  
