@@ -1,0 +1,67 @@
+.card-container {
+    border: 1px solid black;
+    width: 25%;
+  }
+  
+  .card-subtitle {
+    text-align: left;
+  }
+  
+  .card-subtext {
+    text-align: left;
+  }
+  
+  .card-body,
+  .card-header,
+  .card-footer {
+    padding-inline: 0.5rem;
+  }
+  
+  .horizontal-card-header {
+    padding: 1rem;
+  }
+  
+  .card-link {
+    color: var(--primary-color);
+    text-decoration: none;
+  }
+  
+  .card-footer {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  
+  .badge-icon {
+    width: fit-content;
+    padding: 0.5rem;
+    background-color: var(--primary-color);
+    color: var(--white-bg-color);
+    position: absolute;
+    top: 5px;
+    left: 5px;
+  }
+  
+  .cancel-icon {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    color: var(--white-bg-color);
+    cursor: pointer;
+  }
+  
+  .overlay-text {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    position: absolute;
+    color: var(--white-bg-color);
+  }
+  
+  .text-card {
+    padding: 0.5rem;
+  }
+  
+  .shadow {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  }
+
+  
