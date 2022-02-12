@@ -1,0 +1,24 @@
+.input-field {
+    width: 20rem;
+    font-size: 1rem;
+    padding: var(--s-padding);
+    border: 2px solid var(--primary-color);
+    border-radius: 0.5em;
+  }
+  
+  .input-label {
+    font-size: 1rem;
+  }
+  
+  .input-success {
+    border-color: var(--success-color);
+  }
+  
+  .input-error {
+    border-color: var(--error-color);
+  }
+  
+  .input-warning {
+    border-color: var(--warning-color);
+  }
+  

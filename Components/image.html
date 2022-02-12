@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/utility.css" />
+    <link rel="stylesheet" href="/variables.css" />
+    <link rel="stylesheet" href="avatar.css" />
+    <link rel="stylesheet" href="badge.css" />
+    <link rel="stylesheet" href="input.css" />
+    <link rel="stylesheet" href="image.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <title>Image</title>
+  </head>
+  <body>
+    <nav class="flex space-between">
+      <div class="nav-brand">Water Style UI</div>
+      <div>Documentation</div>
+    </nav>
+    <div class="content-wrapper flex no-wrap">
+      <aside class="sidebar flex flex-column gap-l">
+        <a href="/index.html">Home</a>
+        <p>Components</p>
+        <ul class="flex flex-column gap-xl">
+          <li><a href="avatar.html">Avatar</a></li>
+          <li><a href="badge.html">Badge</a></li>
+          <li><a href="alert.html">Alert</a></li>
+          <li><a href="button.html">Buttons</a></li>
+          <li><a href="card.html">Cards</a></li>
+          <li><a href="input.html">Input</a></li>
+          <li><a href="image.html" class="active-link">Image</a></li>
+        </ul>
+      </aside>
+
+      <div class="flex flex-column main gap-m debug">
+        <h1>Responsive Image</h1>
+        <p>
+          This image will maintain its own size and start shrinking once screen
+          size is reduced
+        </p>
+
+        <div class="container">
+          <div class="responsive-img-container">
+            <img
+              src="https://i.pravatar.cc/600"
+              alt="responsive image"
+              class="responsive-img"
+            />
+          </div>
+        </div>
+
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%2859%2C130%2C246%2C1%29&t=seti&wt=none&l=auto&width=503&ds=true&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=10.5px&lh=142%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%2520%253D%2520%2522responsive-img-container%2522%253E%250A%2509%253Cimg%2520src%2520%253D%2520%2522https%253A%252F%252Fi.pravatar.cc%252F300%2522%2520alt%2520%253D%2520%2522responsive%2520image%2522%253E%253C%252Fdiv%253E"
+          style="
+            width: 503px;
+            height: 71px;
+            border: 0;
+            transform: scale(1);
+            overflow: hidden;
+          "
+          sandbox="allow-scripts allow-same-origin"
+        >
+        </iframe>
+
+        <h1>Rounded Responsive Image</h1>
+
+        <div class="container">
+          <div class="responsive-img-container rounded-img-container">
+            <img
+              src="https://i.pravatar.cc/600"
+              alt="responsive image"
+              class="responsive-img rounded-img"
+            />
+          </div>
+        </div>
+
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%2859%2C130%2C246%2C1%29&t=seti&wt=none&l=auto&width=503&ds=true&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=10.5px&lh=142%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%2520%253D%2520%2522responsive-img-container%2520rounded-img-container%2522%253E%250A%2509%253Cimg%2520src%2520%253D%2520%2522https%253A%252F%252Fi.pravatar.cc%252F300%2522%2520alt%2520%253D%2520%2522responsive%2520image%2522%2520class%2520%253D%2520%2522responsive-img%2520rounded-img%2522%253E%250A%253C%252Fdiv%253E"
+          style="
+            width: 503px;
+            height: 85px;
+            border: 0;
+            transform: scale(1);
+            overflow: hidden;
+          "
+          sandbox="allow-scripts allow-same-origin"
+        >
+        </iframe>
+      </div>
+    </div>
+  </body>
+</html>
