@@ -115,6 +115,10 @@ img{
     font-size: 12px;
 }
 
+.bold{
+    font-weight: bold;
+}
+
 .center-block{
     margin-inline:auto;
 }
