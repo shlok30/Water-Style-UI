@@ -78,9 +78,9 @@ img{
     justify-content: center;
 }
 
-  .space-between{
-      justify-content: space-between;
-  }
+.space-between{
+    justify-content: space-between;
+}
 
 .m1-top{
     margin-top : 8px;
@@ -109,6 +109,10 @@ img{
 
 .text-s{
     font-size: 16px;
+}
+
+.text-xs{
+    font-size: 8px;
 }
 
 .center-block{
