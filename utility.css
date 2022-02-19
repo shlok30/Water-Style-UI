@@ -178,3 +178,7 @@ img{
     padding: var(--l-padding)
 }
 
+.cursor-pointer{
+    cursor: pointer;
+}
+
