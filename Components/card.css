@@ -43,8 +43,8 @@
   
   .cancel-icon {
     position: absolute;
-    right: 5px;
-    top: 5px;
+    right: 0.3rem;
+    top: 0.3rem;
     color: var(--white-bg-color);
     cursor: pointer;
   }
@@ -61,7 +61,7 @@
   }
   
   .shadow {
-    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0.625rem 0.625rem 0.3rem 0px rgba(0, 0, 0, 0.75);
   }
 
   

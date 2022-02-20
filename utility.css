@@ -50,15 +50,15 @@ img{
 }
 
 .gap-m{
-    gap:20px;
+    gap:1.25rem;
 }
 
 .gap-l{
-    gap:30px;
+    gap:1.875rem;
 }
 
 .gap-xl{
-    gap:40px;
+    gap:2.5rem;
 }
 
 .flex-column{
@@ -83,36 +83,40 @@ img{
 }
 
 .m1-top{
-    margin-top : 8px;
+    margin-top : 0.5rem;
 }
 
 .m2-top{
-    margin-top : 16px;
+    margin-top : 1rem;
 }
 .m3-top{
-    margin-top : 24px;
+    margin-top : 1.5rem;
 }
 .m4-top{
-    margin-top : 32px;
+    margin-top : 2rem;
 }
 .m5-top{
-    margin-top : 40px;
+    margin-top : 2.5rem;
 }
 
 .m6-top{
-    margin-top: 80px;
+    margin-top: 5rem;
+}
+
+.text-l{
+    font-size: 2rem;
 }
 
 .text-m{
-    font-size:24px;
+    font-size:1.5rem;
 }
 
 .text-s{
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .text-xs{
-    font-size: 12px;
+    font-size: 0.75rem;
 }
 
 .bold{
