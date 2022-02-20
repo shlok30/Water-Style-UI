@@ -2,13 +2,13 @@
 
 Water Style UI is a CSS library, integrated with pre-defined styled classes, and Utilites.
 
-#Run Locally:
+# Run Locally:
 
 git clone "https://github.com/shlok30/Water-Style-UI.git"
 
 Open your favorite code editor and run locally!
 
-#Features
+# Features
 
 Alert
 Navigation
