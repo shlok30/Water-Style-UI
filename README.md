@@ -10,14 +10,14 @@ Open your favorite code editor and run locally!
 
 # Features
 
-Alert
-Navigation
-Buttons
-Badges
-Avatars
-Cards
-Input
-Responsive Image
+Alert\
+Navigation\
+Buttons\
+Badges\
+Avatars\
+Cards\
+Input\
+Responsive Image\
 
 Link : https://water-style-ui.netlify.app/index.html
 
