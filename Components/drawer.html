@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "/main.css">
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <title>Drawer/List</title>
+</head>
+<body>
+    <nav class = "flex space-between">
+        <div class = "nav-brand">Water Style UI</div>
+        <div>Documentation</div>
+    </nav>
+    <div class = "content-wrapper flex">
+        <aside class = "sidebar flex flex-column gap-l">
+            <a href = "/index.html">Home</a>
+            <a href = "install.html">Installation</a>
+            <p>Components</p>
+            <ul class = "flex flex-column gap-xl">
+                <li><a href="avatar.html">Avatar</a></li>
+                <li><a href="badge.html">Badge</a></li>
+                <li><a href="alert.html" >Alert</a></li>
+                <li><a href="button.html">Button</a></li>
+                <li><a href="card.html">Cards</a></li>
+                <li><a href="input.html">Input</a></li>
+                <li><a href="image.html">Image</a></li>
+                <li><a href="navigation.html">Navigation</a></li>
+                <li><a href="slider.html">Slider</a></li>
+                <li><a href="drawer.html" class = "active-link">Drawer/List</a></li>
+            </ul>
+        </aside>
+
+        <div class = "flex flex-column main gap-m debug">
+            <h1>Drawer Component</h1>
+
+            <div class = "container light-border quarter-width">
+        
+                <div>
+                    <div class = "border-bottom flex gap-xl padding-m cursor-pointer drawer-wrapper">
+                        <i class="material-icons cursor-pointer primary-text-colour" >mail</i>
+                        <p class = "secondary-text-colour">Inbox</p>
+                    </div>
+                    <div class = "border-bottom flex gap-xl padding-m cursor-pointer">
+                        <i class="material-icons cursor-pointer primary-text-colour" >star</i>
+                        <p class = "secondary-text-colour">Star</p>
+                    </div>
+                    <div class = "border-bottom flex gap-xl padding-m cursor-pointer">
+                        <i class="material-icons cursor-pointer primary-text-colour" >favorite</i>
+                        <p class = "secondary-text-colour">Favourite</p>
+                    </div>
+                    <div class = "border-bottom flex gap-xl padding-m cursor-pointer">
+                        <i class="material-icons cursor-pointer primary-text-colour" >shopping_cart</i>
+                        <p class = "secondary-text-colour">Cart</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%2859%2C130%2C246%2C1%29&t=seti&wt=none&l=auto&width=503&ds=true&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=10.5px&lh=142%25&si=false&es=2x&wm=false&code=%253Cdiv%253E%250A%2509%253Cdiv%2520class%2520%253D%2520%2522border-bottom%2520flex%2520gap-xl%2520padding-m%2520cursor-pointer%2520drawer-wrapper%2522%253E%250A%2520%2520%2520%2520%2509%253Ci%2520class%253D%2522material-icons%2520cursor-pointer%2520primary-text-colour%2522%2520%253Email%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%2520%253D%2520%2522secondary-text-colour%2522%253EInbox%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%2520%253D%2520%2522border-bottom%2520flex%2520gap-xl%2520padding-m%2520cursor-pointer%2522%253E%250A%2520%2520%2520%2520%2509%253Ci%2520class%253D%2522material-icons%2520cursor-pointer%2520primary-text-colour%2522%2520%253Estar%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%2520%253D%2520%2522secondary-text-colour%2522%253EStar%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%2520%253D%2520%2522border-bottom%2520flex%2520gap-xl%2520padding-m%2520cursor-pointer%2522%253E%250A%2520%2520%2520%2520%2509%253Ci%2520class%253D%2522material-icons%2520cursor-pointer%2520primary-text-colour%2522%2520%253Efavorite%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%2520%253D%2520%2522secondary-text-colour%2522%253EFavourite%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%2520%253D%2520%2522border-bottom%2520flex%2520gap-xl%2520padding-m%2520cursor-pointer%2522%253E%250A%2520%2520%2520%2520%2509%253Ci%2520class%253D%2522material-icons%2520cursor-pointer%2520primary-text-colour%2522%2520%253Eshopping_cart%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%2520%253D%2520%2522secondary-text-colour%2522%253ECart%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                style="width: 503px; height: 371px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+
+    </div>
+</div>
+
+</body>
+</html>
