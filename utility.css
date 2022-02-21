@@ -197,3 +197,15 @@ img{
 .text-right{
     text-align: right;
 }
+
+.border-bottom{
+    border-bottom: 0.5px solid var(--black-color);
+}
+
+.primary-text-colour{
+    color:var(--primary-color)
+}
+
+.secondary-text-colour{
+    color:var(--secondary-color)
+}
