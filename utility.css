@@ -186,3 +186,14 @@ img{
     cursor: pointer;
 }
 
+.half-width{
+    width:50%
+}
+
+.quarter-width{
+    width:25%
+}
+
+.text-right{
+    text-align: right;
+}
