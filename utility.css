@@ -78,6 +78,10 @@ img{
     justify-content: center;
 }
 
+.justify-right{
+    justify-content: flex-end;
+}
+
 .space-between{
     justify-content: space-between;
 }
@@ -208,4 +212,8 @@ img{
 
 .secondary-text-colour{
     color:var(--secondary-color)
+}
+
+.light-shadow{
+    box-shadow: var(--light-shadow-color) 0px 8px 24px;
 }
