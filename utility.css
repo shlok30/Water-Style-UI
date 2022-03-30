@@ -215,5 +215,5 @@ img{
 }
 
 .light-shadow{
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    box-shadow: var(--light-shadow-color) 0px 8px 24px;
 }
