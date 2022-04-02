@@ -1,0 +1,7 @@
+.unchecked-rating{
+    color:var(--grey-color)
+}
+
+.checked-rating{
+    color:var(--warning-color)
+}

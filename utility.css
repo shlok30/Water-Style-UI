@@ -222,6 +222,14 @@ img{
     color : var(--white-bg-color)
 }
 
+.grey-text-colour{
+    color:var(--grey-color)
+}
+
 .light-shadow{
     box-shadow: var(--light-shadow-color) 0px 8px 24px;
+}
+
+.md-32{
+    font-size: 2rem !important; 
 }
