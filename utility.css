@@ -202,6 +202,10 @@ img{
     text-align: right;
 }
 
+.text-left{
+    text-align: left;
+}
+
 .border-bottom{
     border-bottom: 0.5px solid var(--black-color);
 }
@@ -217,3 +221,4 @@ img{
 .light-shadow{
     box-shadow: var(--light-shadow-color) 0px 8px 24px;
 }
+
