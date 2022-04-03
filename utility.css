@@ -222,3 +222,41 @@ img{
     box-shadow: var(--light-shadow-color) 0px 8px 24px;
 }
 
+.grid{
+    display:grid;
+}
+
+.grid-2-columns{
+    grid-template-columns: repeat(2,1fr);
+}
+
+.grid-3-columns{
+    grid-template-columns: repeat(3,1fr);
+}
+
+.grid-dashboard-layout{
+    grid-template-areas: 
+    "nav nav nav"
+    "sidebar main main"
+    "sidebar main main";
+}
+
+.grid-nav{
+    grid-area: nav;
+}
+
+.grid-sidebar{
+    grid-area: sidebar;
+}
+
+.grid-main{
+    grid-area: main
+}
+
+.height-20vh{
+    height: 20vh;
+}
+
+.height-40vh{
+    height: 40vh;
+}
