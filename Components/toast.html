@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "/main.css">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <title>Toast</title>
+</head>
+<body>
+    <nav class = "flex space-between">
+        <div class = "nav-brand">Water Style UI</div>
+        <div>Documentation</div>
+    </nav>
+    <div class = "content-wrapper flex">
+        <aside class = "sidebar flex flex-column gap-l">
+            <a href = "/index.html">Home</a>
+            <a href = "install.html">Installation</a>
+            <p>Components</p>
+            <ul class = "flex flex-column gap-xl">
+                <li><a href="avatar.html">Avatar</a></li>
+                <li><a href="badge.html">Badge</a></li>
+                <li><a href="alert.html" >Alert</a></li>
+                <li><a href="button.html">Button</a></li>
+                <li><a href="card.html">Cards</a></li>
+                <li><a href="input.html">Input</a></li>
+                <li><a href="image.html">Image</a></li>
+                <li><a href="navigation.html">Navigation</a></li>
+                <li><a href="slider.html">Slider</a></li>
+                <li><a href="drawer.html">Drawer/List</a></li>
+                <li><a href="modal.html">Modal</a></li>
+                <li><a href="toast.html" class = "active-link">Toast</a></li>
+                <li><a href="rating.html">Rating</a></li>
+            </ul>
+        </aside>
+
+        <div class = "flex flex-column main gap-m debug">
+            <h1>Toast Component</h1>
+            <p>Toasts are basically notification messages that appear on the screen to inform the user about something. They disappear after a few seconds and also they can be closed using close button.</p>
+
+        <div class = "container flex gap-xl light-border" style = "align-items: center;max-width:100%">
+            
+            <div class = "quarter-width padding-s success flex no-wrap gap-s light-border">
+                <div class = "flex flex-center">
+                    <i class="material-icons md-16 white-text-colour">done</i>
+                </div>
+                <div>
+                    <h4 class = "white-text-colour">Success</h4>
+                    <p class = "white-text-colour">This is a success toast component</p>
+                </div>
+                <div>
+                    <i class="material-icons white-text-colour cursor-pointer">clear</i>
+                </div>
+            </div>
+
+            <div class = "quarter-width padding-s error flex no-wrap gap-s light-border">
+                <div class = "flex flex-center">
+                    <i class="material-icons md-16 white-text-colour">error</i>
+                </div>
+                <div>
+                    <h4 class = "white-text-colour">Error</h4>
+                    <p class = "white-text-colour">This is an error toast component</p>
+                </div>
+                <div>
+                    <i class="material-icons white-text-colour cursor-pointer">clear</i>
+                </div>
+            </div>
+
+            <div class = "quarter-width padding-s warning flex no-wrap gap-s light-border">
+                <div class = "flex flex-center">
+                    <i class="material-icons md-16 white-text-colour">warning</i>
+                </div>
+                <div>
+                    <h4 class = "white-text-colour">Warning</h4>
+                    <p class = "white-text-colour">This is a warning toast component</p>
+                </div>
+                <div>
+                    <i class="material-icons white-text-colour cursor-pointer">clear</i>
+                </div>
+            </div>
+
+        </div>
+        
+
+        <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%2520%253D%2520%2522quarter-width%2520padding-s%2520success%2520flex%2520no-wrap%2520gap-s%2520light-border%2522%253E%250A%2509%253Cdiv%2520class%2520%253D%2520%2522flex%2520flex-center%2522%253E%250A%2520%2520%2520%2520%2509%253Ci%2520class%253D%2522material-icons%2520md-16%2520white-text-colour%2522%253Edone%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2509%253Ch4%2520class%2520%253D%2520%2522white-text-colour%2522%253ESuccess%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%2520%253D%2520%2522white-text-colour%2522%253EThis%2520is%2520a%2520success%2520toast%2520component%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2509%253Ci%2520class%253D%2522material-icons%2520white-text-colour%2520cursor-pointer%2522%253Eclear%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%2520%253D%2520%2522quarter-width%2520padding-s%2520error%2520flex%2520no-wrap%2520gap-s%2520light-border%2522%253E%250A%2509%253Cdiv%2520class%2520%253D%2520%2522flex%2520flex-center%2522%253E%250A%2520%2520%2520%2520%2509%253Ci%2520class%253D%2522material-icons%2520md-16%2520white-text-colour%2522%253Eerror%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2509%253Ch4%2520class%2520%253D%2520%2522white-text-colour%2522%253EError%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%2520%253D%2520%2522white-text-colour%2522%253EThis%2520is%2520an%2520error%2520toast%2520component%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2509%253Ci%2520class%253D%2522material-icons%2520white-text-colour%2520cursor-pointer%2522%253Eclear%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%2520%253D%2520%2522quarter-width%2520padding-s%2520warning%2520flex%2520no-wrap%2520gap-s%2520light-border%2522%253E%250A%2509%253Cdiv%2520class%2520%253D%2520%2522flex%2520flex-center%2522%253E%250A%2520%2520%2520%2520%2509%253Ci%2520class%253D%2522material-icons%2520md-16%2520white-text-colour%2522%253Ewarning%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2509%253Ch4%2520class%2520%253D%2520%2522white-text-colour%2522%253EWarning%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%2520%253D%2520%2522white-text-colour%2522%253EThis%2520is%2520a%2520warning%2520toast%2520component%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2509%253Ci%2520class%253D%2522material-icons%2520white-text-colour%2520cursor-pointer%2522%253Eclear%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+            style="width: 801px; height: 855px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+        </iframe>
+
+    </div>
+</div>
+
+</body>
+</html>
