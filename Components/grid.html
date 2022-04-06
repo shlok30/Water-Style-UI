@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "/main.css">
+    <title>Grid</title>
+</head>
+<body>
+    <nav class = "flex space-between">
+        <div class = "nav-brand">Water Style UI</div>
+        <div>Documentation</div>
+    </nav>
+    <div class = "content-wrapper flex">
+        <aside class = "sidebar flex flex-column gap-l">
+            <a href = "/index.html">Home</a>
+            <a href = "install.html">Installation</a>
+            <a href="typorgraphy.html">Typography</a>
+            <p>Components</p>
+            <ul class = "flex flex-column gap-xl">
+                <li><a href="avatar.html">Avatar</a></li>
+                <li><a href="badge.html">Badge</a></li>
+                <li><a href="alert.html">Alert</a></li>
+                <li><a href="button.html">Buttons</a></li>
+                <li><a href="card.html">Cards</a></li>
+                <li><a href="input.html">Input</a></li>
+                <li><a href="image.html">Image</a></li>
+                <li><a href="navigation.html">Navigation</a></li>
+                <li><a href="slider.html">Slider</a></li>
+                <li><a href="drawer.html">Drawer/List</a></li>
+                <li><a href="modal.html">Modal</a></li>
+                <li><a href="toast.html">Toast</a></li>
+                <li><a href="rating.html">Rating</a></li>
+                <li><a href="grid.html" class = "active-link">Grid</a></li>
+            </ul>
+        </aside>
+
+        <div class = "flex flex-column main gap-m debug">
+            
+            <h1>2 Column Grid Layout</h1>
+
+        <div class = "container flex gap-l light-border" style = "align-items: center;">
+            <div class = "grid grid-2-columns full-width height-20vh gap-m">
+                <div class = " flex flex-center light-border success">Item 1</div>
+                <div class = "flex flex-center light-border warning">Item 2</div>
+            </div>
+        </div>
+
+        <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%2520%253D%2520%2522grid%2520two-columns%2520full-width%2520height-20vh%2520gap-m%2522%253E%250A%2509%253Cdiv%2520class%2520%253D%2520%2522%2520flex%2520flex-center%2520light-border%2520success%2522%253EItem%25201%253C%252Fdiv%253E%250A%2509%253Cdiv%2520class%2520%253D%2520%2522flex%2520flex-center%2520light-border%2520warning%2522%253EItem%25202%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+            style="width: 725px; height: 243px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+        </iframe>
+
+        <h1>3 Column Grid Layout</h1>
+            
+        <div class = "container flex gap-l light-border" style = "align-items: center;">
+            <div class = "grid grid-3-columns full-width height-20vh gap-m">
+                <div class = " flex flex-center light-border success">Item 1</div>
+                <div class = "flex flex-center light-border warning">Item 2</div>
+                <div class = "flex flex-center light-border error">Item 3</div>
+            </div>
+        </div>
+        
+        <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%2520%253D%2520%2522grid%2520grid-3-columns%2520full-width%2520height-20vh%2520gap-m%2522%253E%250A%2509%253Cdiv%2520class%2520%253D%2520%2522%2520flex%2520flex-center%2520light-border%2520success%2522%253EItem%25201%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%2520%253D%2520%2522flex%2520flex-center%2520light-border%2520warning%2522%253EItem%25202%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%2520%253D%2520%2522flex%2520flex-center%2520light-border%2520error%2522%253EItem%25203%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+            style="width: 725px; height: 261px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+      </iframe>
+
+      <h1>Grid Dashboard Layout</h1>
+
+    <div class = "container flex gap-l light-border" style = "align-items: center;">
+        <div class = "grid grid-3-columns grid-dashboard-layout full-width height-40vh gap-m">
+            <div class = "grid-nav flex flex-center light-border success">Navigation</div>
+            <div class = "grid-sidebar flex flex-center light-border warning">Sidebar</div>
+            <div class = "grid-main flex flex-center light-border error">Main Content</div>
+        </div>
+    </div>
+
+    <iframe
+        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%2520%253D%2520%2522grid%2520grid-3-columns%2520grid-dashboard-layout%2520full-width%2520height-40vh%2520gap-m%2522%253E%250A%2509%253Cdiv%2520class%2520%253D%2520%2522grid-header%2520flex%2520flex-center%2520light-border%2520success%2522%253EHeader%253C%252Fdiv%253E%250A%2520%2520%2520%2509%253Cdiv%2520class%2520%253D%2520%2522grid-sidebar%2520flex%2520flex-center%2520light-border%2520warning%2522%253ESidebar%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%2520%253D%2520%2522grid-main%2520flex%2520flex-center%2520light-border%2520error%2522%253EMain%2520Content%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+        style="width: 860px; height: 261px; border:0; transform: scale(1); overflow:hidden;"
+        sandbox="allow-scripts allow-same-origin">
+    </iframe>
+            
+
+    </div>
+</div>
+
+</body>
+</html>

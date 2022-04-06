@@ -206,6 +206,10 @@ img{
     text-align: right;
 }
 
+.text-left{
+    text-align: left;
+}
+
 .border-bottom{
     border-bottom: 0.5px solid var(--black-color);
 }
