@@ -49,6 +49,10 @@ img{
     flex-wrap: nowrap;
 }
 
+.gap-s{
+    gap:0.75rem
+}
+
 .gap-m{
     gap:1.25rem;
 }
@@ -216,6 +220,14 @@ img{
 
 .secondary-text-colour{
     color:var(--secondary-color)
+}
+
+.white-text-colour{
+    color : var(--white-bg-color)
+}
+
+.grey-text-colour{
+    color:var(--grey-color)
 }
 
 .light-shadow{
