@@ -222,4 +222,6 @@ img{
     box-shadow: var(--light-shadow-color) 0px 8px 24px;
 }
 
-
+.md-32{
+    font-size: 2rem !important; 
+}
