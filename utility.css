@@ -276,4 +276,8 @@ img{
   .height-40vh {
     height: 40vh;
   }
+
+  .half-height{
+    height:50%
+  }
   
