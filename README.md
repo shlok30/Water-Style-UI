@@ -13,7 +13,7 @@ git clone "https://github.com/shlok30/Water-Style-UI.git"
 Open your favorite code editor and run locally!
 
 # Live Link
-https://water-style-ui.netlify.app/index.html
+https://water-style-ui-temp.netlify.app/
 
 # Installation
 
@@ -21,7 +21,7 @@ In order to introduce Waster-Style to your project, Copy the Link given below an
 
 ```
 
-<link rel = "stylesheet" href = "https://water-style-ui.netlify.app/main.css" />
+<link rel = "stylesheet" href = "https://water-style-ui-temp.netlify.app/main.css" />
 
 ```
 
@@ -54,6 +54,11 @@ Input\
 Responsive Image\
 Slider\
 Drawer/List
+Modal\
+Toast\
+Rating\
+Grid\
+Typorgraphy\
 
 
 
